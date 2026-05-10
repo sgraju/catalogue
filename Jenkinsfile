@@ -16,7 +16,7 @@ pipeline {
         timeout(time : 10, unit: 'MINUTES')
         disableConcurrentBuilds()
     }
-// this is build sction
+// this is for build sction
     stages {
         stage('Read Version') {
             steps {
